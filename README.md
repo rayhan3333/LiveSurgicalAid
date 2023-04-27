@@ -1,4 +1,4 @@
-# LiveSurgicalAid
+# Development of a Novel Live Surgical Aid using Augmented Reality and Deep Learning
 Through the use of Augmented Reality (AR) and Deep Learning, I have developed a surgical aid that surgeons can use during minimally invasive brain tumor removals. This system first uses deep learning models I trained on 350+ MRIs to generate patient specific models of the tumor and cerebral vasculature or brain blood vessels. I then developed a Unity application to render these 3D models in the surgeons field of view, first building an application to an Android phnoe, and then using the head-mounted display known as the Microsoft Hololens. This system essentially gives the surgeon X-ray vision, allowing them to see the exact position of the tumor and blood vessels overlayed onto the patient like a hologram.
 
 My live surgical aid has several parts: brain tumor segmentation, cerebrovascular segmentation, physical demonstration target creation and detection, and Unity app development. This project uses Python through Google Colab as well as Unity and C#. The pictures and data are shown and explained below.
